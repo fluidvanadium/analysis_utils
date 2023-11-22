@@ -1,6 +1,8 @@
 # TL;DR Follow these steps to run a benchmark
 
 0. git clone zingolib and checkout the version you want to benchmark
+0.1. check ./Cargo.toml to make sure youre pointing at that version
+0.2. install fontconfig
 
 1. Follow the zingo-testutils README at `docs/TEST-REGTEST.md` to set up regtest mode in the version of the code that you want to benchmark.
 2. run: cargo nextest run $BENCHMARK
